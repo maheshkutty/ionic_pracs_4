@@ -1,0 +1,334 @@
+{
+    "1": [
+        {
+            "subCode": "PCS",
+            "desc": "Presentation Skills",
+            "type": "theory",
+            "starttime": "8:00",
+            "endtime": "9:00",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "Machine Learning",
+            "desc": "Machine Learning",
+            "type": "LAB",
+            "starttime": "9:00",
+            "endtime": "11:00",
+            "batch": "A*"
+        },
+        {
+            "subCode": "EH",
+            "desc": "Ethical Hacking",
+            "type": "LAB",
+            "starttime": "9:00",
+            "endtime": "11:00",
+            "batch": "B*"
+        },
+        {
+            "subCode": "EH",
+            "desc": "Ethical Hacking",
+            "type": "Theory",
+            "starttime": "11:15",
+            "endtime": "12:15",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "DAA",
+            "desc": "Design Analysis of Algorithm",
+            "type": "theory",
+            "starttime": "12:15",
+            "endtime": "1:15",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "Process Automation",
+            "desc": "Design Analysis of Algorithm",
+            "type": "theory",
+            "starttime": "14:00",
+            "endtime": "16:00",
+            "batch": "C"
+        }
+    ],
+    "2": [
+        {
+            "subCode": "PNS",
+            "desc": "Probability And statistics",
+            "type": "theory",
+            "starttime": "9:00",
+            "endtime": "10:00",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "Machine Learning",
+            "desc": "Machine Learning",
+            "type": "LAB",
+            "starttime": "10:00",
+            "endtime": "11:00",
+            "batch": "A*"
+        },
+        {
+            "subCode": "JP",
+            "desc": "Java Programming",
+            "type": "LAB",
+            "starttime": "11:15",
+            "endtime": "01:15",
+            "batch": "B"
+        },
+        {
+            "subCode": "DA",
+            "desc": "Design Analysis of Algorithm",
+            "type": "LAB",
+            "starttime": "11:15",
+            "endtime": "01:15",
+            "batch": "A"
+        },
+        {
+            "subCode": "PA",
+            "desc": "Process Automation",
+            "type": "LAB",
+            "starttime": "11:15",
+            "endtime": "01:15",
+            "batch": "D"
+        },
+        {
+            "subCode": "MP",
+            "desc": "Mobile Programming",
+            "type": "LAB",
+            "starttime": "11:15",
+            "endtime": "13:15",
+            "batch": "C"
+        },
+        {
+            "subCode": "JP",
+            "desc": "Java Programming",
+            "type": "LAB",
+            "starttime": "14:00",
+            "endtime": "16:00",
+            "batch": "A"
+        },
+        {
+            "subCode": "JP",
+            "desc": "Java Programming",
+            "type": "LAB",
+            "starttime": "14:00",
+            "endtime": "16:00",
+            "batch": "B"
+        },
+        {
+            "subCode": "MP",
+            "desc": "Mobile Programming",
+            "type": "LAB",
+            "starttime": "14:00",
+            "endtime": "16:00",
+            "batch": "C"
+        },
+        {
+            "subCode": "PCS",
+            "desc": "Presentation Skills",
+            "type": "LAB",
+            "starttime": "14:00",
+            "endtime": "16:00",
+            "batch": "D"
+        }
+    ],
+    "3": [
+        {
+            "subCode": "PCS",
+            "desc": "Presentation Skills",
+            "type": "theory",
+            "starttime": "8:00",
+            "endtime": "9:00",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "Machine Learning",
+            "desc": "Machine Learning",
+            "type": "LAB",
+            "starttime": "9:00",
+            "endtime": "11:00",
+            "batch": "A*"
+        },
+        {
+            "subCode": "EH",
+            "desc": "Ethical Hacking",
+            "type": "LAB",
+            "starttime": "9:00",
+            "endtime": "11:00",
+            "batch": "B*"
+        },
+        {
+            "subCode": "EH",
+            "desc": "Ethical Hacking",
+            "type": "Theory",
+            "starttime": "11:15",
+            "endtime": "12:15",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "DAA",
+            "desc": "Design Analysis of Algorithm",
+            "type": "theory",
+            "starttime": "12:15",
+            "endtime": "1:15",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "Process Automation",
+            "desc": "Design Analysis of Algorithm",
+            "type": "theory",
+            "starttime": "14:00",
+            "endtime": "16:00",
+            "batch": "C"
+        }
+    ],
+    "4": [
+        {
+            "subCode": "PCS",
+            "desc": "Presentation Skills",
+            "type": "theory",
+            "starttime": "8:00",
+            "endtime": "9:00",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "Machine Learning",
+            "desc": "Machine Learning",
+            "type": "LAB",
+            "starttime": "9:00",
+            "endtime": "11:00",
+            "batch": "A*"
+        },
+        {
+            "subCode": "EH",
+            "desc": "Ethical Hacking",
+            "type": "LAB",
+            "starttime": "9:00",
+            "endtime": "11:00",
+            "batch": "B*"
+        },
+        {
+            "subCode": "EH",
+            "desc": "Ethical Hacking",
+            "type": "Theory",
+            "starttime": "11:15",
+            "endtime": "12:15",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "DAA",
+            "desc": "Design Analysis of Algorithm",
+            "type": "theory",
+            "starttime": "12:15",
+            "endtime": "1:15",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "Process Automation",
+            "desc": "Design Analysis of Algorithm",
+            "type": "theory",
+            "starttime": "14:00",
+            "endtime": "16:00",
+            "batch": "C"
+        }
+    ],
+    "5": [
+        {
+            "subCode": "PCS",
+            "desc": "Presentation Skills",
+            "type": "theory",
+            "starttime": "8:00",
+            "endtime": "9:00",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "Machine Learning",
+            "desc": "Machine Learning",
+            "type": "LAB",
+            "starttime": "9:00",
+            "endtime": "11:00",
+            "batch": "A*"
+        },
+        {
+            "subCode": "EH",
+            "desc": "Ethical Hacking",
+            "type": "LAB",
+            "starttime": "9:00",
+            "endtime": "11:00",
+            "batch": "B*"
+        },
+        {
+            "subCode": "EH",
+            "desc": "Ethical Hacking",
+            "type": "Theory",
+            "starttime": "11:15",
+            "endtime": "12:15",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "DAA",
+            "desc": "Design Analysis of Algorithm",
+            "type": "theory",
+            "starttime": "12:15",
+            "endtime": "1:15",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "Process Automation",
+            "desc": "Design Analysis of Algorithm",
+            "type": "theory",
+            "starttime": "14:00",
+            "endtime": "16:00",
+            "batch": "C"
+        }
+    ],
+    "6": [
+        {
+            "subCode": "PCS",
+            "desc": "Presentation Skills",
+            "type": "theory",
+            "starttime": "8:00",
+            "endtime": "9:00",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "Machine Learning",
+            "desc": "Machine Learning",
+            "type": "LAB",
+            "starttime": "9:00",
+            "endtime": "11:00",
+            "batch": "A*"
+        },
+        {
+            "subCode": "EH",
+            "desc": "Ethical Hacking",
+            "type": "LAB",
+            "starttime": "9:00",
+            "endtime": "11:00",
+            "batch": "B*"
+        },
+        {
+            "subCode": "EH",
+            "desc": "Ethical Hacking",
+            "type": "Theory",
+            "starttime": "11:15",
+            "endtime": "12:15",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "DAA",
+            "desc": "Design Analysis of Algorithm",
+            "type": "theory",
+            "starttime": "12:15",
+            "endtime": "1:15",
+            "batch": "ALL"
+        },
+        {
+            "subCode": "Process Automation",
+            "desc": "Design Analysis of Algorithm",
+            "type": "theory",
+            "starttime": "14:00",
+            "endtime": "16:00",
+            "batch": "C"
+        }
+    ]
+}

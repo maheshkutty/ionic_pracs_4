@@ -1,0 +1,91 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Events</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-segment [(ngModel)]="type" (ionChange)="segmentChanged($event)">
+    <ion-segment-button value="upcoming">
+      <ion-label>Upcoming</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="previous">
+      <ion-label>Previous</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  <div [ngSwitch]="type" style="display: flex;">
+    <ion-list *ngSwitchCase="'upcoming'">
+      <div style="display: flex; justify-content: center;">
+        <ion-button (click)="simpleNotification()"
+          >Show Event Notification</ion-button
+        >
+      </div>
+      <ion-card *ngFor="let item of eventData.upcoming" class="eventContainer">
+        <img *ngIf="item.eventImg" [src]="item.eventImg" class="cardImg" />
+        <ion-card-header>
+          <ion-card-title
+            style="color: #ffcb0b; font-weight: bold; margin-bottom: -5px"
+            >{{item.name}}</ion-card-title
+          >
+        </ion-card-header>
+        <ion-card-content>
+          <ion-label>
+            <div class="mode">
+              <ion-icon name="calendar" class="iconSize"></ion-icon>
+              <ion-datetime
+                [value]="item.date"
+                class="datetimeStyle"
+                displayFormat="MMM, M YYYY"
+              ></ion-datetime>
+              <span style="margin-left: 30px">{{item.mode}} </span>
+              <ion-icon name="globe" class="iconSize"></ion-icon>
+            </div>
+            <p *ngIf="item.speaker" style="color: white">
+              Speaker: {{item.speaker.join(", ")}}
+            </p>
+            <p style="color: white">Oragnizer: {{item.organizer}}</p>
+            <!-- <div class="mode">
+              
+            </div> -->
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'previous'">
+      <ion-card *ngFor="let item of eventData.previous" class="eventContainer">
+        <img *ngIf="item.eventImg" [src]="item.eventImg" class="cardImg" />
+        <ion-card-header>
+          <ion-card-title
+            style="color: #ffcb0b; font-weight: bold; margin-bottom: -5px"
+            >{{item.name}}</ion-card-title
+          >
+        </ion-card-header>
+        <ion-card-content>
+          <ion-label>
+            <div class="mode">
+              <ion-icon name="calendar" class="iconSize"></ion-icon>
+              <ion-datetime
+                [value]="item.date"
+                class="datetimeStyle"
+                displayFormat="MMM, M YYYY"
+              ></ion-datetime>
+              <span style="margin-left: 30px">{{item.mode}} </span>
+              <ion-icon name="globe" class="iconSize"></ion-icon>
+            </div>
+            <p *ngIf="item.speaker" style="color: white">
+              Speaker: {{item.speaker.join(", ")}}
+            </p>
+            <p style="color: white">Oragnizer: {{item.organizer}}</p>
+            <!-- <div class="mode">
+              
+            </div> -->
+          </ion-label>
+        </ion-card-content>
+      </ion-card>
+    </ion-list>
+  </div>
+</ion-content>

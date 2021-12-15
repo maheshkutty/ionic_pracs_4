@@ -1,0 +1,48 @@
+.container{
+    background-color:rgba(0,50,106,0.80);
+  }
+  
+  .swiper {
+      width: 100%;
+      height: 300px;
+      margin: 50px auto;
+    }
+    
+  .swiper-slide {
+      background: #f1f1f1;
+      color: #000;
+      text-align: center;
+      line-height: 300px;
+  }
+    
+  .imgStyle{
+    height: 220px;
+  }
+  
+  .mainText{
+    // background-color:rgba(0,50,106,0.80);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color: #ffcb0b;
+  }
+  
+  
+  .subtext{
+    background-color: #ffcb0b;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .subimgstyle{
+    width: 100%;
+    height: 150px;
+  }

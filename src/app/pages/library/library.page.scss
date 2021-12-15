@@ -1,0 +1,23 @@
+.col{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(0, 50, 106, 0.8);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.col:hover{
+    color: #ffcb0b;
+}
+
+.iconSize{
+    font-size: 35px;
+    margin-bottom: 10px;
+
+}

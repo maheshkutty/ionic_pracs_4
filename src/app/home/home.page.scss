@@ -25,3 +25,51 @@
 #container a {
   text-decoration: none;
 }
+
+.anncounce{
+  display: flex;
+  height: 300px;
+  overflow: scroll;
+  flex-direction: column;
+}
+
+.anncounce::-webkit-scrollbar{
+  display: none;
+}
+
+.anncounce a{
+  text-decoration: none;
+  color: #ffcb0b;
+  font-weight: bold;
+}
+
+.aconatiner{
+  margin: 0 5px 0 5px;
+}
+
+.announceText{
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.iconStyle{
+  color: red;
+  font-size: 20px;
+}
+
+.mainText{
+  text-align: center; 
+  font-weight: bold;
+  //background-color: rgba(0, 50, 106, 0.8);
+  padding: 10px 0 10px 0;
+  color: #a52a2a;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.imagealign{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}

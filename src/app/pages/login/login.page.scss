@@ -1,0 +1,31 @@
+.maintext{
+    color: rgba(0,50,106,0.80);
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.imagealign{
+    display: flex;
+    justify-content: center;
+    margin: 20px 5px 5px 5px;
+  }
+
+  ion-button{
+    --background: rgba(0,50,106,0.80);
+    color:#ffcb0b;
+    font-weight: bold;
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+}

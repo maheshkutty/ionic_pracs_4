@@ -1,0 +1,48 @@
+.wp-block-getwid-section__divider.is-top-divider {
+    top: 0;
+}
+
+.wp-block-getwid-section__divider {
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 1;
+    max-height: 100%;
+}
+
+.maincontainer{
+    background-color: #ffcb0b;
+    margin-top: 100px;
+}
+
+.imagealign{
+    //background-color: white;
+    position: absolute;
+    left: 31%;
+    bottom: 62%;
+}
+
+.content{
+    padding: 10px;
+    background-color: #ffcb0b;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.content h2{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content h3{
+    font-size: 15px;
+}
+
+.content h1{
+    font-weight: bold;
+}

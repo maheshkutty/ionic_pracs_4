@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>S.P.I.T Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="imagealign">
+    <img
+      src="https://ieee.spit.ac.in/wp-content/uploads/2019/08/Transperent_New_logo_Maroon-June2011.png"
+      style="height: 100px; width: 100px"
+    />
+  </div>
+  <ion-label><p class="maintext">Login Now</p></ion-label>
+  <div class="conatiner">
+    <form  [formGroup]="loginPage" (ngSubmit)="postFeedback()" novalidate>
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input formControlName="email" required></ion-input>
+        <div
+          *ngIf="errorControl.email.invalid && (errorControl.email.dirty || errorControl.email.touched)"
+        >
+          <span class="error" *ngIf="errorControl.email.errors?.required">
+            Email is required.
+          </span>
+          <span class="error" *ngIf="errorControl.email.errors?.pattern">
+            Not a valid email
+          </span>
+        </div>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Password</ion-label>
+        <ion-input formControlName="password" required type="password"></ion-input>
+        <div
+          *ngIf="errorControl.password.invalid && (errorControl.password.dirty || errorControl.password.touched)"
+        >
+          <span class="error" *ngIf="errorControl.password.errors?.required">
+            Password is required.
+          </span>
+        </div>
+      </ion-item>
+      <ion-button type="submit" expand="block">Submit</ion-button>
+    </form>
+  </div>
+</ion-content>

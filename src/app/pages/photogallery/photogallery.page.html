@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Photogallery</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <p class="mainText">MCA Department</p>
+    <swiper #swiper [zoom]="true" [autoplay]="true">
+      <ng-template swiperSlide *ngFor="let item of introPhotoList">
+        <img [src]="item.src" class="imgStyle" />
+      </ng-template>
+    </swiper>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+      <ion-fab-button> Photos </ion-fab-button>
+      <ion-fab-list side="start">
+        <ion-fab-button (click)="onChangeFab('social')">Social</ion-fab-button>
+        <ion-fab-button (click)="onChangeFab('cultural')"
+          >Cultural</ion-fab-button
+        >
+        <ion-fab-button (click)="onChangeFab('alumi')">Alumni</ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+    <div [style.display]="fabListStyle.social">
+      <ion-label><p class="subtext">Social Activities</p></ion-label>
+      <div *ngFor="let item of secPhotos.social" style="margin-bottom: 10px;">
+        <img [src]="item.src" class="subimgstyle" />
+      </div>
+    </div>
+    <div [style.display]="fabListStyle.cultural">
+      <ion-label><p class="subtext">Cultural Activities</p></ion-label>
+      <div *ngFor="let item of secPhotos.cultural" style="margin-bottom: 10px;">
+        <img [src]="item.src" class="subimgstyle" />
+      </div>
+    </div>
+    <div [style.display]="fabListStyle.alumi">
+      <ion-label><p class="subtext">Alumni Meet</p></ion-label>
+      <div *ngFor="let item of secPhotos.alumi" style="margin-bottom: 10px;">
+        <img [src]="item.src" class="subimgstyle" />
+      </div>
+    </div>
+  </div>
+</ion-content>

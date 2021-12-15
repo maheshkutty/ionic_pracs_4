@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Syllabus</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="container">
+  <ion-label><h1 class="mainText">{{syllabusData[name]['name']}}</h1></ion-label>
+  <div *ngIf="syllabusData[name]['ug'] != null">
+    <ion-label class="subtext">UG Scheme</ion-label>
+    <ion-card *ngFor="let item of syllabusData[name]['ug']">
+      <ion-card-header>
+        <ion-card-title>{{item.title}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Year: {{item.year}}
+        <ion-button
+          href="{{item.src}}"
+          expand="block"
+          shape="round"
+          target="_blank"
+        >
+          <ion-icon slot="start" name="document-attach"></ion-icon>
+          View
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <div *ngIf="syllabusData[name]['pg'] != null">
+    <ion-label class="subtext">PG Scheme</ion-label>
+    <ion-card *ngFor="let item of syllabusData[name]['pg']">
+      <ion-card-header>
+        <ion-card-title>{{item.title}}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Year: {{item.year}}
+        <ion-button
+          href="{{item.src}}"
+          expand="block"
+          shape="round"
+          target="_blank"
+        >
+          <ion-icon slot="start" name="document-attach"></ion-icon>
+          View
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

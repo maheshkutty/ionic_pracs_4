@@ -1,0 +1,31 @@
+.mode {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .mode span {
+    margin: 0 5px 0 10px;
+  }
+  
+  .cardImg {
+    height: 150px;
+    width: 100%;
+  }
+  
+  .iconSize {
+    font-size: 18px;
+  }
+  
+  .datetimeStyle {
+    margin-left: -8px;
+  }
+  
+  .eventContainer {
+    background-color: rgba(0, 50, 106, 0.8);
+    color: white;
+    -webkit-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  

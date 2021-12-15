@@ -1,0 +1,21 @@
+.container{
+    --background-color:black;
+}
+
+.mainText{
+    font-size: 20px;
+    color: rgba(0,50,106,0.80);
+    font-weight: bold;
+    margin: 10px;
+}
+
+.subtext{
+    margin: 10px;
+    color: #ffcb0b;
+    font-weight: bold;
+}
+
+ion-button{
+    --background: rgba(0,50,106,0.80);
+    color:#ffcb0b;
+}

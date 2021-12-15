@@ -5,15 +5,18 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
-
+import { LocalNotifications } from '@ionic-native/local-notifications/ngx';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    SwiperModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage],
+  providers:[LocalNotifications]
 })
 export class HomePageModule {}
